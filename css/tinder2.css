@@ -1,0 +1,274 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body{
+	height: 100%;
+}
+
+.clear{
+	clear: both;
+}
+
+header{
+	padding: 0 2%;
+	background-color: #29a1d4;
+	border-bottom:2px solid #185672;
+}
+.logo{
+	float: left;
+	padding: 5.4px 0 0 10px;
+}
+.logo a{
+	text-decoration: none;
+}
+.logo-header{
+	float: left;
+}
+.logo-name{
+	float: left;
+	padding-top: 24px;
+	padding-left: 10px;
+}
+.logo-header img{
+	display: inline-block;
+	max-width: 100%;
+	width: 80px;
+	border:2px solid white;
+	height: 70px;
+	border-radius: 100%;
+}
+.logo p{
+	display: inline-block;
+	font-size: 25px;
+	color: white;
+	font-family: helvetica;
+}
+
+.logout{
+	float: right;
+	margin-top: 26px;
+	margin-right: 30px;
+}
+.logout a{
+	text-decoration: none;
+}
+.logout a h3{
+	float: left;
+	font-size: 35px;
+	color: white;
+	padding-right: 10px;
+}
+.logout a p{
+	float: left;
+	font-size: 19px;
+	padding-top: 8.5px;
+	color: white;
+	font-family: helvetica;
+}
+.logout a p:hover{
+	text-decoration: underline;
+}
+
+/**user**/
+
+.user{
+	float: left;
+	width: 270px;
+	border-right:2px solid #185672;
+}
+aside{
+	height: 576px;
+	background-color: #006A98;
+}
+.info-user{
+	padding: 10px;
+}
+.foto-usuario{
+	width: 40%;
+	float: left;
+}
+.no-foto-user{
+	background-color: #18272D;
+	height:80px;
+	width: 80px;
+	float: right;
+	border-radius: 1000px;
+	padding-top: 19px;
+}
+.no-foto-user h3{
+	font-size: 35px;
+	color: white;
+	text-align: center;
+}
+.foto-user{
+	height:80px;
+	width: 80px;
+	border: 4px solid #0A2B39;
+	float: right;
+	border-radius: 1000px;
+}
+.foto-user img{
+	max-width: 100%;
+}
+.infos-user{
+	float: left;
+	padding-top: 20px;
+	width: 60%;
+	text-align: center;
+}
+.infos-user p{
+	text-align: center;
+	color: white;
+	font-family: helvetica;
+	font-size: 17px;
+}
+.infos-user p:nth-of-type(2){
+	display: inline-block;
+	padding-right: 3px;
+}
+.infos-user h3{
+	display: inline-block;
+	font-size: 20px;
+	color: #E4F1F7;
+}
+.localizacao{
+	padding: 20px 0;
+}
+.localizacao p{
+	text-align: center;
+	color: white;
+	font-family: helvetica;
+	font-size: 17px;
+	padding: 5px 0;
+}
+.botaolocalizacao button{
+	color: white;
+	font-family: helvetica;
+	font-size: 17px;
+	background-color: #004E70;
+	cursor: pointer;
+	padding:7.5px 10px;
+	outline: 0;
+	margin: 10px auto 0 auto;
+	display: block;
+	border: 1px solid white;
+	border-radius: 6px;
+}
+.botaolocalizacao button:hover{
+	background-color: #247598;
+}
+
+/**painel**/
+
+.painel{
+	width: calc(100% - 270px);
+	float: left;
+	background-color: #ccc;
+}
+.match{
+	width: 80%;
+	margin: 0 auto;
+	background-color: white;
+	height: 576px;
+}
+.sessao-foto{
+	padding-top: 60px;
+}
+.foto-match{
+	border-radius: 1000px;
+	max-width: 100%;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+}
+.foto-match img{
+	max-width: 100%;
+}
+.no-foto-match{
+	max-width: 100%;
+	width: 200px;
+	border-radius: 100%;
+	height: 200px;
+	background-color: #18272D;
+	margin: 0 auto;
+	padding-top: 43px;
+}
+.no-foto-match h3{
+	font-size: 90px;
+	color: white;
+	text-align: center;
+}
+.sessao-foto p{
+	padding-top: 20px;
+	text-align: center;
+	font-size: 20px;
+	font-family: helvetica;
+}
+.options-user{
+	padding: 10px 0;
+	text-align: center;
+}
+.options-user a{
+	text-decoration: none;
+	display: inline-block;
+}
+.options-user a h3{
+	font-size: 70px;
+}
+.options-user div{
+	padding: 0 60px;
+	display: inline-block;
+}
+.options-user a:nth-of-type(1) h3{
+	color: pink;
+}
+.options-user a:nth-of-type(2) h3{
+	color: red;
+}
+
+/**likes**/
+
+.likes-user h4{
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	font-family: helvetica;
+}
+.likes-user>div{
+	width: calc(250px / 3);
+	padding: 20px 0 0 0;
+	float: left;
+}
+.foto-like{
+	border-radius: 1000px;
+	max-width: 100%;
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+}
+.foto-like img{
+	max-width: 100%;
+}
+.no-foto-like{
+	max-width: 100%;
+	margin: 0 auto;
+	width: 50px;
+	border-radius: 100%;
+	height: 50px;
+	background-color: #18272D;
+	padding-top: 10px;
+}
+.no-foto-like h3{
+	font-size: 25px;
+	color: white;
+	text-align: center;
+}
+.name-like p{
+	text-align: center;
+	padding-top: 4px;
+	color: white;
+	font-size: 15px;
+	font-family: helvetica;
+}
